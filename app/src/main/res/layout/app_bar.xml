@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appColor"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size_16sp"
+        android:textColor="@color/whiteColor"
+        android:id="@+id/appBarTitle"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:text="@string/headlines"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <include layout="@layout/app_bar"
+        android:id="@+id/appBar"/>
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_below="@+id/appBar"
+    android:id="@+id/recyclerView">
+
+</android.support.v7.widget.RecyclerView>
+</RelativeLayout>
